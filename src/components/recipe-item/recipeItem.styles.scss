@@ -1,0 +1,31 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0.1em;
+	width: 22%;
+}
+
+.recipe-item {
+	position: relative;
+	height: 220px;
+	width: 220px;
+	background-position: center center;
+	border-radius: 0.2rem;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.minutes {
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	background-color: whitesmoke;
+	padding: 0.3rem 0.5rem;
+	border-radius: 0.5rem;
+	font-size: 0.8rem;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.recipe-title {
+	margin-bottom: 4rem;
+}

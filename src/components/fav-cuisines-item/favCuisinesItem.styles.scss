@@ -1,0 +1,34 @@
+@import url("//db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa");
+
+$black-overlay: rgba(0, 0, 0, 0.4);
+
+body {
+	font-family: "Europa";
+}
+.fav-cuisines-item {
+	cursor: pointer;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0.3rem;
+	box-shadow: inset 0 0 150px $black-overlay;
+	transition: opacity 400ms;
+	&:hover {
+		opacity: 0.4;
+	}
+	h3 {
+		margin: 0 auto;
+		width: 80%;
+		font-size: 0.8rem;
+		font-weight: bold;
+		color: #fff;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,38 @@
+.search-bar {
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+	padding: 1.2rem 1rem 1rem;
+	border: none;
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 2rem;
+}
+.icon-search {
+	color: lightgray;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	font-size: 1.5rem;
+}
+
+.search-input {
+	width: 100%;
+	margin: 0 auto;
+	border: none;
+	background-color: transparent;
+	padding: 0.2rem;
+	color: lightgray;
+	font-size: 1.2rem;
+
+	&::placeholder {
+		padding-left: rem;
+		color: lightgray;
+		font-family: "Europa";
+		font-size: 1.2rem;
+	}
+	&:focus {
+		outline: none;
+	}
+
+	width: 80%;
+}
