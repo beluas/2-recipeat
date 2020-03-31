@@ -2,7 +2,7 @@ import { takeLeading, put, call } from "redux-saga/effects";
 //
 const KEY = "4f7388d8cad840a0860d5395bf98acd3";
 
-function* fetchRecipe(term) {
+function* fetchRecipe(term = "meat") {
 	const myTerm = yield localStorage.getItem("term") || term;
 
 	const data = yield fetch(

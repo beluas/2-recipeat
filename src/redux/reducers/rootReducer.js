@@ -1,6 +1,5 @@
 const initialState = { recipes: 0 };
 const FETCH_RECIPES = "FETCH_RECIPES";
-const FETCH_SEARCHED_RECIPES = "FETCH_SEARCHED_RECIPES";
 
 const rootReducer = (state = initialState, { type, payload }) => {
 	switch (type) {

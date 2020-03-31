@@ -20,7 +20,7 @@ class SearchBar extends React.Component {
 						this.props.fetchRecipe(term);
 					}}
 					className="search-input"
-					placeholder="Search million recipes & more"
+					placeholder="What can i eat today ?"
 					type="text"
 				/>
 			</div>
