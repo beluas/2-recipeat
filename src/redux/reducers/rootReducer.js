@@ -6,14 +6,8 @@ const rootReducer = (state = initialState, { type, payload }) => {
 		case FETCH_RECIPES:
 			return {
 				...state,
-				recipes: payload
+				recipes: payload,
 			};
-
-		// case FETCH_SEARCHED_RECIPES:
-		// 	return {
-		// 		...state,
-		// 		recipes: payload
-		// 	};
 		default:
 			return state;
 	}

@@ -10,11 +10,11 @@ export class BodyContent extends Component {
 				<h2>Just For You</h2>
 				<div className="recipes-container">
 					{this.props.recipes ? (
-						this.props.recipes.map(recipe => (
+						this.props.recipes.map((recipe) => (
 							<RecipeItem key={recipe.id} {...recipe} />
 						))
 					) : (
-						<h1>Wait...</h1>
+						<h1>Loading...</h1>
 					)}
 				</div>
 			</div>
@@ -22,8 +22,8 @@ export class BodyContent extends Component {
 	}
 }
 
-const mapStateToProps = state => ({
-	recipes: state.recipes.results
+const mapStateToProps = (state) => ({
+	recipes: state.recipes.results,
 });
 
 const dispatchToProps = {};
