@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3808c90ebfac15478e054a10138e2bf",
+    "revision": "d090eded09c1a57742d36fd791c5aa72",
     "url": "/2-recipeat/index.html"
   },
   {
-    "revision": "99f58b807395a7054d69",
-    "url": "/2-recipeat/static/css/main.f111844b.chunk.css"
+    "revision": "d9f49b26f3da1e5954e2",
+    "url": "/2-recipeat/static/css/main.fef06aea.chunk.css"
   },
   {
     "revision": "46eabb81f1c1e30f89f9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2-recipeat/static/js/2.786fd059.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99f58b807395a7054d69",
-    "url": "/2-recipeat/static/js/main.fdcef399.chunk.js"
+    "revision": "d9f49b26f3da1e5954e2",
+    "url": "/2-recipeat/static/js/main.55e294f0.chunk.js"
   },
   {
     "revision": "8f2df350adfe6f52e879",
